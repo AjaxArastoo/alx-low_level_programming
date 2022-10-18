@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - prints _putchar
- * written by Emmanuel
+ * main - print _putchar
+ * is written by Emmanuel
  * Return: 0
  */
 
@@ -19,3 +19,5 @@ _putchar('r');
 _putchar('\n');
 return (0);
 }
+
+
