@@ -1,1 +1,1 @@
-0-putchar
+functions and nested loops
