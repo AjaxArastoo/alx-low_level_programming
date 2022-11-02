@@ -1,14 +1,19 @@
 #include "main.h"
 
-void _puts_recursion(char *);
-
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _puts_recursion - prints a string, followed by a new line.
+ * @s: string
+ * Return: no return.
  */
-int main(void)
+void _puts_recursion(char *s)
 {
-	_puts_recursion("First, solve the problem. Then, write the code");
-	return (0);
+	s = "lpa\0"
+	if (*s == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	s++;
+	_puts_recursion(s);
 }
