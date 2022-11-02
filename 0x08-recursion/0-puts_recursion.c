@@ -1,21 +1,14 @@
 #include "main.h"
-#include <stdio.h>
+
+void _puts_recursion(char *);
 
 /**
-  * _puts_recursion - Print a string followed by a new line
-  * @s: the string to print
-  *
-  * Return: Nothing.
-  */
-void _puts_recursion(char *s)
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	if (*s == '\0')
-	{
-		_putchar('\n');
-		return;
-	}
-
-	_putchar(*s);
-	s++;
-	_puts_recursion(s);
+	_puts_recursion("First, solve the problem. Then, write the code");
+	return (0);
 }
